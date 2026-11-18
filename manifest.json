@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Chess.com Süre Uyarısı",
+  "version": "1.2",
+  "description": "Sıra sendeyken süren 20 saniyenin altına inince tonu yükselen ve hızlanan bip çalar.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.chess.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Chess.com Süre Uyarısı"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "sure-uyarisi@ckilincer",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  }
+}
