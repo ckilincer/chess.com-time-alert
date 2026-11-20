@@ -17,7 +17,7 @@ Bip sıfıra yaklaştıkça **tonu yükselir ve hızlanır** (20 sn'de saniyede 
 3. **Geliştirici modu**'nu aç → **Paketlenmemiş öğe yükle** → çıkardığın klasörü seç.
 4. Açık chess.com sekmesini yenile.
 
-**Firefox (140+)** — `about:debugging#/runtime/this-firefox` → **Load Temporary Add-on** → `manifest.json`.
+**Firefox (140+)** — `about:debugging#/runtime/this-firefox` → **Load Temporary Add-on** → `manifest.json` ya da hazır paket `firefox/sure-uyarisi-firefox.zip`. Paket her sürümde koddan otomatik üretilir (`python firefox_paket.py`); imzasız olduğu için Firefox'u kapatınca kaldırılır, kalıcı kurulum Mozilla imzası ister.
 Geçici yükleme tarayıcı kapanınca silinir; kalıcı kurulum için eklenti addons.mozilla.org'da imzalatılmalıdır.
 
 ## Nasıl çalışır
@@ -49,7 +49,7 @@ Değiştirdikten sonra eklenti sayfasında eklentiyi yenile (↻).
 
 **Install (Chromium browsers):** Code → Download ZIP → unzip → open `chrome://extensions` → enable *Developer mode* →
 *Load unpacked* → pick the folder → reload chess.com.
-**Firefox 140+:** `about:debugging` → *Load Temporary Add-on* → `manifest.json`.
+**Firefox 140+:** `about:debugging` → *Load Temporary Add-on* → `manifest.json`, or the ready-made package `firefox/sure-uyarisi-firefox.zip` (rebuilt from source on every release by `firefox_paket.py`; unsigned, so it is removed when Firefox closes).
 
 **How it works:** reads the bottom (your) clock; beeps only while it is your turn and the clock is running.
 Also hides the right-hand ad column (`reklam.css`). No network requests, no data collection, no permissions. Tweak knock points, threshold, volume, pitch and tempo at the top of `content.js`.

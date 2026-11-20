@@ -13,9 +13,11 @@ Chrome'a "Paketlenmemiş öğe" olarak `D:\REPOS\Chess\sure-uyarisi` klasöründ
 2. ✓ GitHub'da herkese açık yayın
 3. ✓ 60/45/30 sn tak-tak uyarısı
 4. ✓ Sağdaki reklamı gizleme
-5. → Gerçek oyunda deneme
+5. ✓ Firefox paketi depoda, her sürümde otomatik güncellenir
+6. → Gerçek oyunda deneme
 
 ## Şu an
+- 2026-11-20: Firefox paketi (v1.8) GitHub deposuna giriyor: `firefox/sure-uyarisi-firefox.zip`; her gönderimde koddan yeniden üretilir.
 - 2026-11-20: v1.8 — sağdaki reklam gizleniyor; GitHub'a gönderiliyor.
 - 2026-11-20: v1.7 — tak-tak sesi yeniden yapıldı (eskisi hoparlörde duyulmayacak kadar pesti); senin Chrome'unda sahte saatle denendi, sesi onayladın. GitHub'da (0e5c126).
 

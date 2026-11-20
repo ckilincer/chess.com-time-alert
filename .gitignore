@@ -1,1 +1,3 @@
 *.zip
+!firefox/sure-uyarisi-firefox.zip
+__pycache__/
