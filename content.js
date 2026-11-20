@@ -115,7 +115,7 @@
   function isaretle(d) {
     try {
       document.documentElement.dataset.ckSure = JSON.stringify({
-        v: '1.7', saat: d ? d.s : null, akiyor: d ? d.akiyor : null,
+        v: '1.8', saat: d ? d.s : null, akiyor: d ? d.akiyor : null,
         ses: ctx ? ctx.state : 'yok', bip: bipSay, tak: takSay });
     } catch (e) {}
   }

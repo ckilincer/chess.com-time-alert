@@ -12,10 +12,12 @@ Chrome'a "Paketlenmemiş öğe" olarak `D:\REPOS\Chess\sure-uyarisi` klasöründ
 1. ✓ Eklenti ve ikon
 2. ✓ GitHub'da herkese açık yayın
 3. ✓ 60/45/30 sn tak-tak uyarısı
-4. → Gerçek oyunda deneme
+4. ✓ Sağdaki reklamı gizleme
+5. → Gerçek oyunda deneme
 
 ## Şu an
-- 2026-11-20: v1.7 — tak-tak sesi yeniden yapıldı (eskisi hoparlörde duyulmayacak kadar pesti); senin Chrome'unda sahte saatle denendi, sesi onayladın. GitHub'a gönderiliyor.
+- 2026-11-20: v1.8 — sağdaki reklam gizleniyor; GitHub'a gönderiliyor.
+- 2026-11-20: v1.7 — tak-tak sesi yeniden yapıldı (eskisi hoparlörde duyulmayacak kadar pesti); senin Chrome'unda sahte saatle denendi, sesi onayladın. GitHub'da (0e5c126).
 
 ## Senin yapacakların
 1. Bir sonraki canlı oyununda tak-tak ve bip seslerini duyup duymadığını söyle.

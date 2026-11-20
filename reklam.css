@@ -1,0 +1,9 @@
+/* Chess.com sağ sütun reklamı (oyun ve /play sayfaları; 2026-11-20'de ölçüldü). */
+#board-layout-ad,
+.board-layout-ad,
+#sidebar-ad,
+.skyscraper-ad-component,
+.skyscraper-ad-slot,
+[id^="google_ads_iframe"] {
+  display: none !important;
+}

@@ -1,8 +1,9 @@
 # Chess.com Time Alert — durum
 
-**Son güncelleme:** 2026-11-20 · v1.7
+**Son güncelleme:** 2026-11-20 · v1.8 (v1.7 GitHub'da `0e5c126`)
 
 ## Son oturumlar
+- 2026-11-20 (3): v1.8 — `reklam.css` (content_scripts css): sağ sütun reklamı `#board-layout-ad` (/play ve oyun sayfasında ölçüldü), gizleyince düzen bozulmuyor (ekran görüntüsüyle bakıldı). chess.com sınıf adlarını değiştirirse reklam geri gelir.
 - 2026-11-20 (2): Kullanıcı tak-tak'ı duymadı (bip duyuldu). Ölçüm: teşhis göstergesi `<html data-ck-sure>` (v1.4) — tak sayacı artıyordu, ses "running"; neden: 75–190 Hz vuruş dizüstü/monitör hoparlöründe çalınmıyor. v1.5 tiz (duyuldu, "daha tok olsun"), v1.6 tok 170–430 Hz ("pes"), v1.7: 330/620/1150 Hz rezonans + 2.5 kHz darbe — kullanıcı "tamam". Ses denemesi kullanıcının Chrome'unda sahte saatle (chess.com oyun sayfası, saat metni JS ile azaltılır; başta metin '--' yapılırsa eşik atlaması tak çalmaz).
 - 2026-11-20: v1.3 — 60/45/30 sn eşik geçişinde tak-tak (iki vuruş: alçalan sine + boğuk gürültü). Eşik geçişi yalnız saat akarken;
   1:00 ile başlayan oyunda 60'ta çalmaz (geçiş yok). Sahte saatle 5 senaryo denendi (1:30, 1:00, rakip→ben, bitmiş oyun, sıra rakipte).

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Chess.com Süre Uyarısı",
-  "version": "1.7",
-  "description": "Sıra sendeyken 60/45/30 sn'de tak-tak, 20 sn altında tonu yükselen ve hızlanan bip.",
+  "version": "1.8",
+  "description": "Sıra sendeyken 60/45/30 sn'de tak-tak, 20 sn altında hızlanan bip; sağdaki reklamı gizler.",
   "content_scripts": [
     {
       "matches": [
@@ -11,7 +11,10 @@
       "js": [
         "content.js"
       ],
-      "run_at": "document_idle"
+      "run_at": "document_idle",
+      "css": [
+        "reklam.css"
+      ]
     }
   ],
   "icons": {

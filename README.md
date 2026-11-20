@@ -25,6 +25,7 @@ Geçici yükleme tarayıcı kapanınca silinir; kalıcı kurulum için eklenti a
 - Alttaki (senin) saatini okur; uyarı yalnız **sıra sendeyken ve saat akarken** çalar.
 - Rakibin saati akarken, bitmiş oyunlarda ve analizde ses yok.
 - Tarayıcılar sesi sayfada bir tıklamadan sonra açar; ilk taşını oynamak yeterli.
+- Oyun ve oyna sayfalarında sağ sütundaki reklamı gizler (`reklam.css`; istemiyorsan `manifest.json`'dan `"css"` satırını sil).
 - Ağ isteği yapmaz, veri toplamaz, hiçbir izin istemez; yalnız `https://www.chess.com/*` üzerinde çalışır.
 
 ## Ayarlar
@@ -51,7 +52,7 @@ Değiştirdikten sonra eklenti sayfasında eklentiyi yenile (↻).
 **Firefox 140+:** `about:debugging` → *Load Temporary Add-on* → `manifest.json`.
 
 **How it works:** reads the bottom (your) clock; beeps only while it is your turn and the clock is running.
-No network requests, no data collection, no permissions. Tweak knock points, threshold, volume, pitch and tempo at the top of `content.js`.
+Also hides the right-hand ad column (`reklam.css`). No network requests, no data collection, no permissions. Tweak knock points, threshold, volume, pitch and tempo at the top of `content.js`.
 
 *Not affiliated with or endorsed by Chess.com.*
 
