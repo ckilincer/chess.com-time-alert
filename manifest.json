@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Chess.com Süre Uyarısı",
-  "version": "1.2",
-  "description": "Sıra sendeyken süren 20 saniyenin altına inince tonu yükselen ve hızlanan bip çalar.",
+  "version": "1.3",
+  "description": "Sıra sendeyken 60/45/30 sn'de tak-tak, 20 sn altında tonu yükselen ve hızlanan bip.",
   "content_scripts": [
     {
       "matches": [
