@@ -1,6 +1,9 @@
 # Chess.com Time Alert — durum
 
+**Son güncelleme:** 2026-11-20 · v1.7
+
 ## Son oturumlar
+- 2026-11-20 (2): Kullanıcı tak-tak'ı duymadı (bip duyuldu). Ölçüm: teşhis göstergesi `<html data-ck-sure>` (v1.4) — tak sayacı artıyordu, ses "running"; neden: 75–190 Hz vuruş dizüstü/monitör hoparlöründe çalınmıyor. v1.5 tiz (duyuldu, "daha tok olsun"), v1.6 tok 170–430 Hz ("pes"), v1.7: 330/620/1150 Hz rezonans + 2.5 kHz darbe — kullanıcı "tamam". Ses denemesi kullanıcının Chrome'unda sahte saatle (chess.com oyun sayfası, saat metni JS ile azaltılır; başta metin '--' yapılırsa eşik atlaması tak çalmaz).
 - 2026-11-20: v1.3 — 60/45/30 sn eşik geçişinde tak-tak (iki vuruş: alçalan sine + boğuk gürültü). Eşik geçişi yalnız saat akarken;
   1:00 ile başlayan oyunda 60'ta çalmaz (geçiş yok). Sahte saatle 5 senaryo denendi (1:30, 1:00, rakip→ben, bitmiş oyun, sıra rakipte).
 - 2026-11-19: Eklenti yazıldı (MV3, Chromium + Firefox 140+): alttaki saat `.clock-component.clock-bottom`, sıra `clock-player-turn`
@@ -9,4 +12,10 @@
   GitHub'da public yayın: `ckilincer/chess.com-time-alert`.
 
 ## Sırada
-- Gerçek bir oyunda 20 sn altına inildiğinde sesin duyulduğunu kullanıcıdan teyit et.
+- Gerçek bir canlı oyunda tak-tak ve bip'in duyulduğunu kullanıcıdan teyit et (sahte saatle ikisi de duyuldu).
+
+## Bilmeden dokunma
+- Ses frekansı ~300 Hz'in altına inmez: dizüstü/monitör hoparlörü çalmaz, uyarı sessizce kaybolur (v1.3 dersi).
+- Eklenti yenilenince açık chess.com sekmesi de yenilenmeli; teşhis: konsolda `document.documentElement.dataset.ckSure`.
+- Bitmiş oyunda `clock-player-turn` sınıfı kalıyor: "akıyor" kontrolü (son 1.3 sn'de azalma) kaldırılırsa eski oyunlara bakarken ses çalar.
+- Depo PUBLIC: chess.com logosu, sır, kişisel veri girmez. Aktarılan görsel/SVG'de C2PA üst verisi olabilir (D166).

@@ -38,7 +38,7 @@ Geçici yükleme tarayıcı kapanınca silinir; kalıcı kurulum için eklenti a
 | `FREK_BAS` / `FREK_SON` (Hz) | 500 / 1500 |
 | `ARALIK_BAS` / `ARALIK_SON` (ms) | 1000 / 110 |
 | `TAK_ESIKLER` (tak-tak anları, sn) | 60, 45, 30 |
-| `TAK_SES` (0–1) | 0.8 |
+| `TAK_SES` (0–1) | 0.7 |
 
 Değiştirdikten sonra eklenti sayfasında eklentiyi yenile (↻).
 

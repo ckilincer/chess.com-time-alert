@@ -15,10 +15,10 @@ Chrome'a "Paketlenmemiş öğe" olarak `D:\REPOS\Chess\sure-uyarisi` klasöründ
 4. → Gerçek oyunda deneme
 
 ## Şu an
-- v1.3 (tak-tak uyarısı) GitHub'a gönderiliyor.
+- 2026-11-20: v1.7 — tak-tak sesi yeniden yapıldı (eskisi hoparlörde duyulmayacak kadar pesti); senin Chrome'unda sahte saatle denendi, sesi onayladın. GitHub'a gönderiliyor.
 
 ## Senin yapacakların
-1. Bir oyunda tak-tak ve bip seslerini duyup duymadığını söyle.
+1. Bir sonraki canlı oyununda tak-tak ve bip seslerini duyup duymadığını söyle.
 
 ## Sıradaki işler
-- Ses gelmezse saat okuma kodunu canlı oyunda incele.
+- Canlı oyunda ses gelmezse teşhis göstergesiyle (data-ck-sure) saat okumayı incele.
