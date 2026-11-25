@@ -10,7 +10,7 @@ kurallar burada da yazılı:
    `cd /d` OLMAZ (ParserError). Klasör değiştirme yerine `git -C D:\REPOS\Chess\sure-uyarisi pull`; iki adım gerekiyorsa
    `A; if ($?) { B }`. (D147)
 2. **Tek komut, kod bloğunda yalnız komut.** Hata çıktısı, örnek, açıklama kod bloğuna konmaz.
-3. **Senden bir şey isteniyorsa cevabın ilk satırında:** "Senden istediğim: …". İş yoksa bu cümle yazılmaz.
+3. **Önce kısa açıklama, istek cevabın SONUNDA (2026-11-25, kullanıcı: "önce açıkla, sonra isteğini yaz"):** ayrı "Senden istediğim" bölümü; iş yoksa bu bölüm yazılmaz. **Erteleme yok:** yapılabilecek iş "sonraki oturumda" denmeden aynı cevapta yapılır.
 4. **Üç yer aynı:** iş bitince GitHub `main` ve `D:\REPOS\Chess\sure-uyarisi` aynı commit'te olur (gönderim `revizyon.bat`).
 5. **"Devam" yeter:** önce `STATUS.md`, sonra kaldığı yerden; kullanıcıya dosya adı söyletilmez.
 6. Türkçe konuş; tek yol öner (alternatif sıralama); dar tablo.
