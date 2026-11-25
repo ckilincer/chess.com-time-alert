@@ -1,6 +1,6 @@
 # Chess.com Time Alert — proje
 
-**Güncelleme:** 2026-11-20
+**Güncelleme:** 2026-11-25
 
 ## Ne bu, ne için
 Chess.com'da oynarken süren azalınca seni sesle uyaran tarayıcı eklentisi: 1 dk, 45 sn ve 30 sn'de tak-tak; 20 sn altında sıfıra yaklaştıkça incelen ve hızlanan bip.
@@ -17,6 +17,7 @@ Chrome'a "Paketlenmemiş öğe" olarak `D:\REPOS\Chess\sure-uyarisi` klasöründ
 6. → Gerçek oyunda deneme
 
 ## Şu an
+- 25 Kasım: kod değişmedi (v1.8). 22 Kasım'da bulut oturumu kuralları eklenmişti; bugün "istek sonda, erteleme yok" satırı güncellendi.
 - 2026-11-20: Firefox paketi (v1.8) GitHub deposuna giriyor: `firefox/sure-uyarisi-firefox.zip`; her gönderimde koddan yeniden üretilir.
 - 2026-11-20: v1.8 — sağdaki reklam gizleniyor; GitHub'a gönderiliyor.
 - 2026-11-20: v1.7 — tak-tak sesi yeniden yapıldı (eskisi hoparlörde duyulmayacak kadar pesti); senin Chrome'unda sahte saatle denendi, sesi onayladın. GitHub'da (0e5c126).
